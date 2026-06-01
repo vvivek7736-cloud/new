@@ -1,8 +1,5 @@
-x = 10
+def add(a, b):
+    print(a + b)
 
-def test():
-    x = 20
-    print(x)
-
-test()
-print(x)
+result = add(5, 3)
+print(result)
